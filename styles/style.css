@@ -1,0 +1,27 @@
+body {
+  /* Путь к вашему изображению */
+  background-image: url('../images/background.jpg');
+  
+  /* Картинка не будет повторяться */
+  background-repeat: no-repeat;
+  
+  /* Картинка растянется на весь экран */
+  background-size: cover;
+  
+  /* Картинка отцентрирована */
+  background-position: center;
+  
+  /* Фон зафиксирован при прокрутке страницы */
+  background-attachment: fixed;
+  
+  /* Цвет-заглушка на случай, если картинка грузится медленно */
+  background-color: #7e18899e;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+a {
+  position: bottom;
+}
